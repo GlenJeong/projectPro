@@ -1,6 +1,5 @@
 package com.login.test.controller;
 
-import com.login.test.dto.MemberDto;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,13 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/register")
 public class RegisterController {
 
-    @GetMapping("/register")
+    @GetMapping("/save")
     public String registerForm(){
-        return "/register";
+        return "register";
     }
 
-    @PostMapping("/register")
-    public String register(MemberDto memberDto){
-        return "/index";
+    @PostMapping("/save")
+    public String register(){
+        return "index";
     }
 }

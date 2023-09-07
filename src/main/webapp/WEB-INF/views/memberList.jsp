@@ -11,10 +11,6 @@
     <title>index</title>
 </head>
 <body>
-<h2>여기는 홈입니다. 개인 프로젝트 진행중입니다.</h2>
-<a href="/register/save"> 회원가입</a>
-<a href="/member/login">로그인</a>
-<a href="/member/list">회원 목록</a>
-
+<h2>회원 리스트를 보여 줍니다.</h2>
 </body>
 </html>
