@@ -16,7 +16,7 @@ public class MemberController {
     @PostMapping("/login")
     public String login(String email, String password){
 
-        return "redirec:/index";
+        return "/index";
 
     }
 

@@ -17,6 +17,6 @@ public class RegisterController {
 
     @PostMapping("/register")
     public String register(MemberDto memberDto){
-        return "/redirec:/index";
+        return "/index";
     }
 }
